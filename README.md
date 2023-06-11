@@ -65,6 +65,3 @@ DHPR_Image_Selection.py: Generating a typical training set from input images aut
 ### Models:
 We include two models for users to test. One is the model trained via our DHPR selection rule, and named DHPR_300.ckpt in the 'checkpoints' file. The other is the model trained via large-scale dataset (1500 images), and named USES_1500.ckpy in the 'checkpoints' file.
 
-### Test Dataset:
-We also include 6 testing images for testing in the 'image' file under the 'test_dataset' file. The prediction results by our DHPR model and large-scale samples model (USES) are also included in the 'DHPR_300_prediction' file and 'USES_1500_prediction' file under the 'test_dataset' file, respectively. The datasets can be accessed via: https://github.com/GTreeSoftware/DB-Enhance/releases/tag/testdata1.
-
