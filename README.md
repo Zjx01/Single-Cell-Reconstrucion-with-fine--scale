@@ -15,7 +15,7 @@ Below is an example of how you can use the pipelines.
    ```sh
    git clone https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale.git
    ```
-2. Run the Image Predicting with 
+2. Predicting the Neuron Stucture with Pretained VoxResNet.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
