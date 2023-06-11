@@ -37,6 +37,9 @@ Nvidia GPU corresponding driver CUDA: cuda 9.0 cudnn: cudnn 7 Python: 3.9.9 pyto
 |  ----  | ----  |
 | CUDA  | cuda 9.0|
 | cudnn  | cudnn 7 |
+| Python  | 3.9.9 |
+| pytorch ｜ 0.4.1｜
+
 
 ### Functions:
 For interactive demos of the functions, please give the file paths that include the training and testing images. You can also adjust some paramters for better training or testing in your own computer. The python file config.py is used for configuration of the packages. Paths and training or testing parameters can be adjusted via this file. You need to generate loss and result files.
