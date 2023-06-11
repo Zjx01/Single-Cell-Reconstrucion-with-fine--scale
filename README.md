@@ -32,7 +32,6 @@ The deep learning algorithm requires enough RAM and GPU to support the calculati
 The package development version is tested on Linux operating systems. The developmental version of the package has been tested on the following systems: Linux: Ubuntu 20.04
 
 ### Environment Requirements:
-Nvidia GPU corresponding driver CUDA: cuda 9.0 cudnn: cudnn 7 Python: 3.9.9 pytorch:0.4.1 visdom:0.1.8.5 Numpy: 1.14.5 tifffile: 0.15.1 Scikit-image:0.13.1 matlab 
 |  package   | version  |
 |  ----  | ----  |
 | CUDA  | cuda 9.0|
