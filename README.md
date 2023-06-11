@@ -2,8 +2,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ### Project overview
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/aa088eeb-1a96-456a-8e4a-16c10a1b0528)
 
 ### Why we develop this pipeline?
 It is widely known that proper neural function is the physiological basis of our daily behaviors and is tightly regulated by neuron morphology. The distinct arborization structures of neurons are found to underpin their identity, connectivity, and firing pattern, further boosting the formulation of neuron circuits and proper brain functions (Peng et al., 2015). Accumulating studies have observed the neuron deformation and dysconnectivity in patients with degenerative diseases, such as Alzheimer ‘s and Parkinson’s Diseases, indicating the involvement of morphologies changes under disease progression. With such prior knowledge, neuron tracing or neural reconstruction, which extract the neuron structure from microscopic images, is considered as the essential step for neural circuit building and brain information flow analyzing, supporting understanding of pathogenesis of disease.
