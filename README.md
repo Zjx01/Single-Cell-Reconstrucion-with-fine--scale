@@ -23,7 +23,6 @@ broken neurite fragments in the original image and corresponding probability map
 ![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/c4370f75-ad41-4d97-b33a-4ab3dc515c21)
 We also examine the effectiveness of our tracing methods under various intensity, as low microscopic intensity is quite common problem in the real world. As shown on the right, when the tracing is performed on the original intensity, all tracing methods present a nice neurite tracing performance on original intensity and clearly delineating the overall neurite structure. But When the intensity decreases, some algorithm gradually show weakness in in the detection in the weak neurite, especially for the branches with tortured shapes, which is pointed out by the red circles, while our algorithm is able to achieve an accurate and complete reconstruction effect. 
 
-![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/bbd01c4b-b057-41e5-a29b-817dcb71644b)
 
 ### System Requirements
 
