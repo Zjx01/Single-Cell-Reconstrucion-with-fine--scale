@@ -13,7 +13,7 @@ In this project, we fomulated semi-automatic neuron tracing software for precise
 Below is an example of how you can use the pipelines.
 1. Clone the repo
    ```sh
-   git clone [https://github.com/your_username_/Project-Name.git](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale.git)
+   git clone https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale.git
    ```
 2. Run the Image Predicting with 
 
