@@ -13,7 +13,7 @@ However, `current methodologies for neuron reconstruction still largely rely on 
 
 Despite the difficulties, scientists had developed a series of semi-automatic or automatic neuron reconstruction software and tracing algorithms, including gray-scale weighted distance transform (GWDT) based tracing algorithm APP2, principle curve tracing derived softeware NeuroGPSTree, and open-curve sanke model-based algorithm OpenSnake. But these methods still show `deficiency in weak neurite detection and reqire input of many sensitive parameters`, holding a high demand of algorithm understanding for users.
 
+### Dependencies Requierd to implement the pipeline
 
-
-Getting Started:
+### Getting Started:
 1. This is an example of how you can implement the pipeline to generate the 
