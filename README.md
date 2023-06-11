@@ -5,7 +5,12 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+It is widely known that proper neural function is the physiological basis of our daily behaviors and is tightly regulated by neuron morphology. The distinct arborization structures of neurons are found to underpin their identity, connectivity, and firing pattern, further boosting the formulation of neuron circuits and proper brain functions (Peng et al., 2015). Accumulating studies have observed the neuron deformation and dysconnectivity in patients with degenerative diseases, such as Alzheimer ‘s and Parkinson’s Diseases, indicating the involvement of morphologies changes under disease progression. With such prior knowledge, neuron tracing or neural reconstruction, which extract the neuron structure from microscopic images, is considered as the essential step for neural circuit building and brain information flow analyzing, supporting understanding of pathogenesis of disease.
+
+
+However, current methodologies for neuron reconstruction still largely rely on the manual delineation and annotation, which is labor-intensive, time-consuming. Even a well-experienced expert can take up to days to delineate a single neuron. The lack of effective automatic neuron reconstruction tools  greatly limits the large-scale neuron morphology characterization and quantification and interferes with the downstream neuron circuitry analysis and functional study.
+![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/06abcb00-c80f-4827-a8f6-783ecaf1fc0e)
+
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
