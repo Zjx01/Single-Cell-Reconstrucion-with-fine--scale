@@ -15,8 +15,7 @@ In this project, we fomulated semi-automatic neuron tracing software for precise
 **CNN prediction result on optical neuron images**
 ![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/6db17625-66f7-4fd1-b506-27b64ca99cbc)
 The pretrained CNN could generally predicted neuron structure in optical neuron images, even for
-the ones with tortured structure (4a,4b) and heavy noises (4c ,4d). The red arrow here notes
-broken neurite fragments in the original image and corresponding probability map.
+the ones with tortured structure (a,b) and heavy noises (c,d), validating its role in noise suppressing and neurite prediction. The red arrow here notes broken neurite fragments in the original image and corresponding probability map.
 
 
 **Comparison of Neuron Tracing Performance under various intensity**
