@@ -15,3 +15,5 @@ Despite the difficulties, scientists had developed a series of semi-automatic or
 
 
 
+Getting Started:
+1. This is an example of how you can implement the pipeline to generate the 
