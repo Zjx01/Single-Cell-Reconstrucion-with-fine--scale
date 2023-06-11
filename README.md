@@ -9,17 +9,6 @@ In this project, we fomulated semi-automatic neuron tracing software for precise
 ![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/387bc90c-d242-4e6d-8ef4-83e1e1758a87)
 <!-- ABOUT THE PROJECT -->
 
-### Get Started! 
-Below is an example of how you can use the pipelines.
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale.git
-   ```
-2. Predicting the Neuron Stucture with Pretained VoxResNet.
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ### Reconstruction Result 
@@ -34,6 +23,7 @@ the ones with tortured structure (a,b) and heavy noises (c,d), validating its ro
 We also examine the effectiveness of our tracing methods under various intensity, as low microscopic intensity is quite common problem in the real world. As shown on the right, when the tracing is performed on the original intensity, all tracing methods present a nice neurite tracing performance on original intensity and clearly delineating the overall neurite structure. But When the intensity decreases, some algorithm gradually show weakness in in the detection in the weak neurite, especially for the branches with tortured shapes, which is pointed out by the red circles, while our algorithm is able to achieve an accurate and complete reconstruction effect. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ### Implementation System Requirements
 
@@ -64,4 +54,18 @@ DHPR_Image_Selection.py: Generating a typical training set from input images aut
 
 ### Models:
 We include two models for users to test. One is the model trained via our DHPR selection rule, and named DHPR_300.ckpt in the 'checkpoints' file. The other is the model trained via large-scale dataset (1500 images), and named USES_1500.ckpy in the 'checkpoints' file.
+
+
+### Get Started! 
+Below is an example of how you can use the pipelines.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale.git
+   ```
+2. Predicting the Neuron Stucture with Pretained VoxResNet.
+   ```sh
+   python 
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
