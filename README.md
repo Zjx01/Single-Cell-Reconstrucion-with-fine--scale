@@ -1,7 +1,6 @@
 # Single Cell Reconstrucion with fine scale
 
 <!-- ABOUT THE PROJECT -->
-### Project overview
 ![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/933fdca2-be8e-4618-9339-b6b6848cfe8f)
 
 
