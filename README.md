@@ -23,7 +23,7 @@ the ones with tortured structure (a,b) and heavy noises (c,d), validating its ro
 We also examine the effectiveness of our tracing methods under various intensity, as low microscopic intensity is quite common problem in the real world. As shown on the right, when the tracing is performed on the original intensity, all tracing methods present a nice neurite tracing performance on original intensity and clearly delineating the overall neurite structure. But When the intensity decreases, some algorithm gradually show weakness in in the detection in the weak neurite, especially for the branches with tortured shapes, which is pointed out by the red circles, while our algorithm is able to achieve an accurate and complete reconstruction effect. 
 
 
-### System Requirements
+### Implementation System Requirements
 
 ### Hardware Requirements:
 The deep learning algorithm requires enough RAM and GPU to support the calculation. For optimal performace, we recommenda computer with the following specs: RAM: 16+GB CPU: Intel i7 or better GPU: 1080Ti or better
