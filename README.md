@@ -38,7 +38,10 @@ Nvidia GPU corresponding driver CUDA: cuda 9.0 cudnn: cudnn 7 Python: 3.9.9 pyto
 | CUDA  | cuda 9.0|
 | cudnn  | cudnn 7 |
 | Python  | 3.9.9 |
-| pytorch ｜ 0.4.1｜
+| pytorch | 0.4.1 |
+|visdom |  0.1.8.5|
+|Numpy |  1.14.5|
+|tifffile| 0.15.1 |
 
 
 ### Functions:
