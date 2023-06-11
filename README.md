@@ -1,4 +1,7 @@
 # Single Cell Reconstrucion with fine scale
+In this project, we fomulated semi-automatic neuron tracing software for precise 3D neuron reconstruction from 2D image stacks by integrating CNN prediction and Voxel-Scooping Tracing Algorithm!
+
+[image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/d296b553-9fa3-4d52-b837-c21bbf46a1b0)
 
 <!-- ABOUT THE PROJECT -->
 ![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/933fdca2-be8e-4618-9339-b6b6848cfe8f)
