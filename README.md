@@ -1,7 +1,7 @@
 # Single Cell Reconstrucion with fine scale
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### Project overview
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
