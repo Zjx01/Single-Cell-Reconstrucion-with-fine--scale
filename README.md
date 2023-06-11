@@ -9,6 +9,17 @@ In this project, we fomulated semi-automatic neuron tracing software for precise
 ![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/387bc90c-d242-4e6d-8ef4-83e1e1758a87)
 <!-- ABOUT THE PROJECT -->
 
+### Get Started! 
+Below is an example of how you can use the pipelines.
+1. Clone the repo
+   ```sh
+   git clone [https://github.com/your_username_/Project-Name.git](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale.git)
+   ```
+2. Run the Image Predicting with 
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 ### Reconstruction Result 
@@ -22,6 +33,7 @@ the ones with tortured structure (a,b) and heavy noises (c,d), validating its ro
 ![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/c4370f75-ad41-4d97-b33a-4ab3dc515c21)
 We also examine the effectiveness of our tracing methods under various intensity, as low microscopic intensity is quite common problem in the real world. As shown on the right, when the tracing is performed on the original intensity, all tracing methods present a nice neurite tracing performance on original intensity and clearly delineating the overall neurite structure. But When the intensity decreases, some algorithm gradually show weakness in in the detection in the weak neurite, especially for the branches with tortured shapes, which is pointed out by the red circles, while our algorithm is able to achieve an accurate and complete reconstruction effect. 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Implementation System Requirements
 
@@ -42,6 +54,7 @@ The package development version is tested on Linux operating systems. The develo
 |Numpy |  1.14.5|
 |tifffile| 0.15.1 |
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Functions:
 For interactive demos of the functions, please give the file paths that include the training and testing images. You can also adjust some paramters for better training or testing in your own computer. The python file config.py is used for configuration of the packages. Paths and training or testing parameters can be adjusted via this file. You need to generate loss and result files.
