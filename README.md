@@ -55,17 +55,3 @@ DHPR_Image_Selection.py: Generating a typical training set from input images aut
 ### Models:
 We include two models for users to test. One is the model trained via our DHPR selection rule, and named DHPR_300.ckpt in the 'checkpoints' file. The other is the model trained via large-scale dataset (1500 images), and named USES_1500.ckpy in the 'checkpoints' file.
 
-
-### Get Started! 
-Below is an example of how you can use the pipelines.
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale.git
-   ```
-2. Predicting the Neuron Stucture with Pretained VoxResNet.
-   ```sh
-   python 
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
