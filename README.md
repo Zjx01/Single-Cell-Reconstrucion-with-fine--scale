@@ -1,19 +1,17 @@
 # Single Cell Reconstrucion with fine scale
 
-### Why we develop this pipeline?
+## Why we develop this pipeline?
 Revealing the interplay between the structure and function of neuron cells is of crucial importance to understand the neural circuit formulation and facilitate subsequent analysis of brain information flow. Neuron reconstruction which traces the neuron structure from optical images serves as an essential way to investigate how the brain works at a cell level. Although many methods have been developed for neuron tracing, `accurate neuron tracing for neuron images with complicated structures or fuzzy neurites remains an unsolved difficulty`.Revealing the interplay between the structure and function of neuron cells is of crucial importance to understand the neural circuit formulation and facilitate subsequent analysis of brain information flow. Neuron reconstruction which traces the neuron structure from optical images serves as an essential way to investigate how the brain works at a cell level. Although many methods have been developed for neuron tracing, accurate neuron tracing for neuron images with complicated structures or fuzzy neurites remains an unsolved difficulty. **Therefore, we aim to develop a establish a user-friendly neuron reconstruction pipeline with reliable weak neurite detection ability.**
 
 
 In this project, we fomulated semi-automatic neuron tracing software for precise 3D neuron reconstruction from 2D image stacks by integrating CNN prediction and Voxel-Scooping Tracing Algorithm. In short, to reconstruct a neuron structure from images stacks, the images would be predicted by the pretrained VoxResNet to generate a probability map, with Voxel-Scooping Algorithm delineating the detailed neuron skeleton on the probability map as shown in project pipeline below. 
 
-### Aim and Pipeline Overview
+## Aim and Pipeline Overview
 ![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/afdbdc76-044d-4df3-87b8-c8a17a9018dd)
 <!-- ABOUT THE PROJECT -->
-![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/387bc90c-d242-4e6d-8ef4-83e1e1758a87)
 
 
-
-### Reconstruction Result 
+## Reconstruction Result 
 **CNN prediction result on optical neuron images**
 ![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/6db17625-66f7-4fd1-b506-27b64ca99cbc)
 The pretrained CNN could generally predicted neuron structure in optical neuron images, even for
@@ -27,7 +25,7 @@ We also examine the effectiveness of our tracing methods under various intensity
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-### Implementation System Requirements
+## Implementation System Requirements
 
 ### Hardware Requirements:
 The deep learning algorithm requires enough RAM and GPU to support the calculation. For optimal performace, we recommenda computer with the following specs: RAM: 16+GB CPU: Intel i7 or better GPU: 1080Ti or better
@@ -48,10 +46,10 @@ The package development version is tested on Linux operating systems. The develo
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Functions:
+## Functions:
 For interactive demos of the functions, please give the file paths that include the training and testing images. You can also adjust some paramters for better training or testing in your own computer. The python file config.py is used for configuration of the packages. Paths and training or testing parameters can be adjusted via this file. You need to generate loss and result files.
 
-### three main functions:
+### Three Main Functions:
 DHPR_Image_Selection.py: Generating a typical training set from input images automatically following diversity and hardness samples first criteria. Train_Supervise.py: Realizing the training process for a new training or transfer learning for fine tuning. Predict_Selected_Dataset.py: Loading the trained model for predcting of new testing image.
 
 ### Models:
