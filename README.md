@@ -6,8 +6,10 @@ Revealing the interplay between the structure and function of neuron cells is of
 
 In this project, we fomulated semi-automatic neuron tracing software for precise 3D neuron reconstruction from 2D image stacks by integrating CNN prediction and Voxel-Scooping Tracing Algorithm. In short, to reconstruct a neuron structure from images stacks, the images would be predicted by the pretrained VoxResNet to generate a probability map, with Voxel-Scooping Algorithm delineating the detailed neuron skeleton on the probability map as shown in project pipeline below. 
 
-![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/387bc90c-d242-4e6d-8ef4-83e1e1758a87)
+### Aim and Pipeline Overview
+![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/afdbdc76-044d-4df3-87b8-c8a17a9018dd)
 <!-- ABOUT THE PROJECT -->
+![image](https://github.com/Zjx01/Single-Cell-Reconstrucion-with-fine--scale/assets/48267562/387bc90c-d242-4e6d-8ef4-83e1e1758a87)
 
 
 
